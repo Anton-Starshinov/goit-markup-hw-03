@@ -1,0 +1,31 @@
+
+/*-----------Фильтры-----------*/
+.filters-btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+.filters-btn:hover, 
+.filters-btn:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+/*-----------Проэкты------------*/
+.progect-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--header-color);
+}
+.progect-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
