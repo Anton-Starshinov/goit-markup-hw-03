@@ -1,12 +1,13 @@
 
 /*-----------Фильтры-----------*/
-.filters-button {
+.filters {
  padding-top: 94px;
- padding-bottom: 50px;
+ padding-bottom: 94px;
 }
 .filtrrs-list {
 display: flex;
 justify-content: center;
+margin-bottom: 50px;
 }
 .filters-item:not(:last-child) {
 margin-right: 8px;
@@ -35,9 +36,7 @@ min-width: 40px;
     background-color: var(--accent-color);
 }
 /*-----------Проэкты------------*/
-.progect-box {
-    padding-bottom: 94px;
-}
+
 .progect-list {
     display: flex;
     flex-wrap: wrap;
@@ -49,9 +48,13 @@ min-width: 40px;
     margin-left: 30px;
     margin-bottom: 30px;
 }
+.progect-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #eeeeee;
+}
 .progect-title {
-    margin-top: 20px;
-    margin-bottom: 4px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
@@ -59,6 +62,7 @@ min-width: 40px;
     color: var(--header-color);
 }
 .progect-subtitle {
+    margin-top: 4px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
