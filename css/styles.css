@@ -41,7 +41,7 @@ img {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #ECECEC;
 }
 .logo{
 font-family: 'Raleway', sans-serif;
